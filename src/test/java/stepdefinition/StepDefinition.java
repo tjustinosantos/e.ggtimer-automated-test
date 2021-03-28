@@ -78,7 +78,7 @@ public class StepDefinition {
             previousNumber = countDownPage.getCurrentCountDownNumber();
             Thread.sleep( seconds * 1000);
             Assert.assertTrue(previousNumber>countDownPage.getCurrentCountDownNumber());
-        } while (countDownPage.getCurrentCountDownNumber() > 0);
+        } while (countDownPage.getCurrentCountDownNumber() >= 0);
         // Time to consider the time "0 second"
         Thread.sleep( seconds * 1000);
         Assert.assertEquals("Time Expired!", countDownPage.getExpiredTimeInformation());

@@ -7,8 +7,11 @@ Simple Test to validate the countdown provided by https://e.ggtimer.com/
 ### Project Dependencies
 
 * Maven version 3.5.0
-* Java version 1.8
-* Selenium Webdriver 2.44.0
+* Java version 11
+* Selenium Webdriver 3.141.59
+* [Chromedriver 89.0.4389.23](https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/)
+* Chrome Browser (tested with Version 89.0.4389.90)
+   
 
 ### Project Structure
 
@@ -31,6 +34,13 @@ Simple Test to validate the countdown provided by https://e.ggtimer.com/
                +-- README.md
 
 ### Installation Instructions
+
+* Download and extract [Chromedriver](https://chromedriver.storage.googleapis.com/index.html?path=89.0.4389.23/)
+* Start it:
+             $chromedriver start
+  
+  
+It should start locally at localhost:9515, which is address that the project is already set for connection.
 
 * Project Installation
 
